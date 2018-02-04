@@ -1,0 +1,109 @@
+@import 
+  url('https://fonts.googleapis.com/css?family=Comfortaa');
+body {
+  background-color: #334;
+  font-family: 'Comfortaa', cursive;
+  
+}
+h2{
+  align-self: flex-start;
+  margin-bottom: 0;
+  margin-left: 50px;
+  color: white;
+  font-size: 2.5em;
+}
+a:hover {
+    color: lightgreen;
+}
+a {
+  color: inherit;
+  
+}
+a:link {
+    text-decoration: none;
+}
+.find-box a {
+  background-color:white;
+  height:40px;
+  width: 30px;
+  padding-top:7px;
+  padding-right: 10px;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+button{
+  height:31px;
+  background-color: white;
+  
+}
+
+.random-wiki{
+   color: white;
+   align-self: flex-end;
+   margin-right: 50px;
+   margin-top: 3px;
+   font-size: 1.2em;
+}
+.fa-search{
+  margin-top: 0px;
+  color: #334;
+}
+.search-style{
+  border-radius: 0 10px 10px 0;
+}
+.input-style{
+  width: 400px;
+  height: 40px;
+  border-radius: 10px 0 0 10px;
+  font-size: 1.5em;
+  text-align: center;
+  border: none
+}
+
+.find-box{
+  display:flex;
+  
+}
+.find{
+  width: 500px;
+  margin: 100px auto 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;  
+}
+.main{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.articles{
+  max-width: 800px;
+  width: 80%;
+  font-size: .9em;
+  
+}
+
+.article{
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px 0;
+  transition:all 0.3s ease;
+}
+.article a:hover{
+  color: inherit;
+}
+
+.article:hover {
+  box-shadow:
+                1px 1px #FFFF33,
+                2px 2px #FFFF33,
+                3px 3px #FFFF33;
+        -webkit-transform: translateX(-4px);
+        transform: translateX(-4px);
+}
